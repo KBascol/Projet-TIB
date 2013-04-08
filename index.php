@@ -1,4 +1,5 @@
-<?php include "includes/head.php"; ?>
+
+<?php include "includes/head.php"; /* Ceci est une MAJ oui oui  !^^ */?>
 
 <div id="header">
     <?php
