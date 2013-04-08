@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'CabinSketchBold';
+	src: url('polices/CabinSketch-Bold-webfont.eot');
+	src: url('polices/CabinSketch-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('polices/CabinSketch-Bold-webfont.woff') format('woff'),
+		 url('polices/CabinSketch-Bold-webfont.ttf') format('truetype'),
+		 url('polices/CabinSketch-Bold-webfont.svg#CabinSketchBold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+#header {
+    width: 95%;
+    background: #4CB;
+    font-family: 'CabinSketchBold';
+    
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    margin: auto;
+    margin-bottom: 15px;
+    
+    border: 1px black solid;
+    border-radius: 10px;
+}
+#header form {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+#section {
+    width: 58%;
+    
+    position: absolute;
+    left: 5%;
+    border: 1px red solid;
+}
+
+#aside {
+    width: 30%;
+    
+    position: absolute;
+    right: 5%;
+    
+    border: 1px blue solid;
+}
+
+h1 {
+    font-size: 1.1em;
+}
